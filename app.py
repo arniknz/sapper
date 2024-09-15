@@ -10,6 +10,8 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Sapper")
         b = QPushButton("Click!")
 
+        self.setFixedSize(QSize(640, 720))
+
         self.setCentralWidget(b)
 
 app = QApplication(sys.argv)
